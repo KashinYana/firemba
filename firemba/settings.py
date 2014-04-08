@@ -103,3 +103,7 @@ MEDIA_ROOT = os.path.join(PROJECT_ROOT, "../media")
 # trailing slash.
 # Examples: "http://example.com/media/", "http://media.example.com/"
 MEDIA_URL = '/media/'
+
+RECAPTCHA_PUBLIC_KEY='6LfDc_ESAAAAANY2ieURpNJt4RMgXFV72Wr1oYgc'
+RECAPTCHA_PRIVATE_KEY='6LfDc_ESAAAAALRii7_DKJHUcv_nz16EBqlIEuhn'
+CAPTCHA_AJAX = True
