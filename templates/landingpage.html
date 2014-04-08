@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Landing Page Template for Bootstrap</title>
+    <title> Firemba </title>
 
     <!-- Bootstrap core CSS -->
     <link href="/media/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -22,7 +22,7 @@
 </head>
 
 <body>
-
+    <!--
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -34,8 +34,9 @@
                 </button>
                 <a class="navbar-brand" href="http://startbootstrap.com">Start Bootstrap</a>
             </div>
-
+     -->
             <!-- Collect the nav links, forms, and other content for toggling -->
+    <!-- 
             <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="#about">About</a>
@@ -46,11 +47,15 @@
                     </li>
                 </ul>
             </div>
+    -->
             <!-- /.navbar-collapse -->
+    <!--
         </div>
+     -->
         <!-- /.container -->
+    <!--
     </nav>
-
+    -->
     <div class="intro-header">
 
         <div class="container">
@@ -58,9 +63,11 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1>Landing Page </h1>
-                        <h3>A Template by Start Bootstrap</h3>
+                        <h1> Firemba </h1>
+                        <h3> Проект &laquo; Платные опросы &raquo; </h3>
                         <hr class="intro-divider">
+                       
+                      <!-- 
                         <ul class="list-inline intro-social-buttons">
                             <li><a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                             </li>
@@ -69,6 +76,8 @@
                             <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
                             </li>
                         </ul>
+                     -->
+                    
                     </div>
                 </div>
             </div>
@@ -87,12 +96,15 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Death to the Stock Photo:
-                        <br>Special Thanks</h2>
-                    <p class="lead">A special thanks to Death to the Stock Photo for providing the photographs that you see in this template. <a target="_blank" href="http://join.deathtothestockphoto.com/">Visit their website</a> to become a member.</p>
+                    <h2 class="section-heading">Фиремба -</h2>
+                    <p class="lead" style="font-size:1.5em">
+                         новый сервис платных опросов. Крупные компании готовы платить большие деньги, чтобы понимать потребности и поведение людей. Мы поможем Вам получить эти деньги. 
+                        </p>
+                
+                
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="/media/img/ipad.png" alt="">
+                    <img class="img-responsive" src="/media/img/LPAndroid.png" alt="" style="width: 50%; height: 50%">
                 </div>
             </div>
 
@@ -110,12 +122,30 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">3D Device Mockups
-                        <br>by PSDCovers</h2>
-                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by PSDCovers! <a target="_blank" href="http://www.psdcovers.com/">Visit their website</a> to download some of their awesome, free photoshop actions!</p>
+                    <h2 class="section-heading"> Выгодно </h2>
+                    <p class="lead" style="font-size:1.5em">
+                        
+                        Вы будете получать деньги за ответы на вопросы на самые разные темы: чем больше ответов - тем больше денег
+
+                    </p>
+                    <h2 class="section-heading"> Удобно</h2>
+                    <p class="lead" style="font-size:1.5em">
+                        
+                        Заполняйте опросы на сайте или на смартфонах и планшетах в любое время и в любом месте (мы поддерживаем iPhone и Android)
+
+                    </p>
+                     <h2 class="section-heading"> Безопасно</h2>
+                        <p class="lead" style="font-size:1.5em">
+                            
+                            Все данные о вас будут использоваться только анонимно в больших сводных отчетах
+
+                        </p>
+                           
+                
+                
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="/media/img/doge.png" alt="">
+                    <img class="img-responsive" src="/media/img/LPiOS.png" alt="" style="width: 50%; height: 50%">
                 </div>
             </div>
 
@@ -133,12 +163,60 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Google Web Fonts and
-                        <br>Font Awesome Icons</h2>
-                    <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
+                    <h2 class="section-heading"> Запишитесь сейчас! </h2>
+                    <h6 class="section-heading"> Оставьте нам свои контакты, и в апреле 2014 года мы пришлем вам персональный код для входа. Количество мест ограничено! </h6>
+                    
+                    {% if not completed %}
+                    <form class="form-horizontal" action="." method="POST">
+                      
+                          
+                         <div class="control-group">
+                            <label class="control-label" for="inputName" required>Имя * </label>
+                            <div class="controls">
+                              <input type="text" id="inputName" name="inputName" placeholder="" required>
+                            </div>
+                          </div> 
+                        <div class="control-group">
+                            <label class="control-label" for="inputSurName"required>Фамилия *</label>
+                            <div class="controls">
+                              <input type="text" id="inputSurName" name="inputSurName" placeholder="" required>
+                            </div>
+                          </div> 
+                        <div class="control-group">
+                            <label class="control-label" for="inputPatronymic" required >Отчество *</label>
+                            <div class="controls">
+                              <input type="text" id="inputPatronymic" name="inputPatronymic" placeholder="" required>
+                            </div>
+                          </div> 
+                          
+                          
+                        <div class="control-group">
+                            <label class="control-label" for="inputEmail" required>Email *</label>
+                            <div class="controls">
+                              <input type="text" id="inputEmail" name="inputEmail" placeholder="" required>
+                            </div>
+                         </div> 
+                    
+                        <div class="control-group">
+                            <div class="controls">
+                              <label class="checkbox">
+                                <input type="checkbox" required> Согласен с правилами*
+                              </label>
+                              <button class="btn btn-large btn-primary"  type="submit" class="btn"> Отправить </button>
+                            </div>
+                          </div>
+                         * - обязательное поле
+                    </form>
+                    <hr />
+                    <h6 class="section-heading"> Нам нужны реальные люди, а не роботы. Мнение ботов никого не интересует и ничего не стоит. Поэтому имя и адрес почты должны быть настоящими. Спам мы на них слать не будем.   </h6>
+                    {% endif %}
+                    {% if completed %}
+                    <p class="lead"> Спасибо за прохождение опроса. </p>
+                    {% endif %}
+                    <p class="lead"> </p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="/media/img/phones.png" alt="">
+                   <!-- <img class="img-responsive" src="/media/img/phones.png" alt=""> -->
                 </div>
             </div>
 
@@ -148,6 +226,7 @@
     </div>
     <!-- /.content-section-a -->
 
+    <!--
     <div class="banner">
 
         <div class="container">
@@ -169,34 +248,36 @@
             </div>
 
         </div>
+        -->
         <!-- /.container -->
-
+    <!--
     </div>
+    -->
     <!-- /.banner -->
-
-    <footer>
+       <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="list-inline">
-                        <li><a href="#home">Home</a>
+                        <li><a href="#home"></a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="#about">About</a>
+                        <li><a href="#about"></a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="#services">Services</a>
+                        <li><a href="#services"></a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="#contact">Contact</a>
+                        <li><a href="#contact"></a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2013. All Rights Reserved</p>
+                    <p class="copyright text-muted small"> &laquo;Большие данные - это новая эпоха в нашем понимании общества. С нетерпением жду первых результатов работы проекта &laquo;Фиремба&raquo;.&raquo;  &mdash; Валерий Кривцов (Профессор, декан факультета инноваций и высоких технологий МФТИ)
+ </p>
                 </div>
             </div>
         </div>
     </footer>
-
+   
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
